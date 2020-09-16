@@ -5,7 +5,7 @@
 @fole   : tf_keras_classification_model.py
 @ctime  : 2020/9/16 13:30
 @Email  : 1131771202@qq.com
-@content: 创建一个标准的算法
+@content: 创建一个标准的分类模型
 """
 
 import matplotlib as mpl

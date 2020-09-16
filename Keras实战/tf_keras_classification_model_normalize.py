@@ -5,7 +5,7 @@
 @fole   : tf_keras_classification_model.py
 @ctime  : 2020/9/16 13:30
 @Email  : 1131771202@qq.com
-@content: 对比创建标准的算法的归一化，效果很显著
+@content: 对比创建标准的分类模型的归一化，效果很显著
 """
 
 import matplotlib as mpl
