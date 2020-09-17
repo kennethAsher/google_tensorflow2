@@ -26,9 +26,9 @@ fashion_mnist = keras.datasets.fashion_mnist
 x_valid, x_train = x_train_all[:8000], x_train_all[8000:]
 y_valid, y_train = y_train_all[:8000], y_train_all[8000:]
 # 分别获得验证集，训练集，测试集
-print(x_valid.shape, y_valid.shape)
-print(x_train.shape, y_train.shape)
-print(x_test.shape, y_test.shape)
+print(x_valid.shape, y_valid.shape)  #(5000, 28, 28) (5000,)
+print(x_train.shape, y_train.shape)  #(55000, 28, 28) (55000,)
+print(x_test.shape, y_test.shape)    #(10000, 28, 28) (10000,)
 
 
 def show_single_image(img_arr):
