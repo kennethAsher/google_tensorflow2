@@ -78,8 +78,8 @@ history = model.fit(x_train_all, y_train_all, epochs=10, validation_split=0.2)
 
 def plot_learning_curves(history):
     pd.DataFrame(history.history).plot(figsize=(8, 5))
-    plt.grid(True)
-    plt.gca().set_ylim(0, 1)
+    plt.grid(True)   # 显示图坐标中的网格
+    plt.gca().set_ylim(0, 1)  #设置边界的范围值
     plt.show()
 
 plot_learning_curves(history)
