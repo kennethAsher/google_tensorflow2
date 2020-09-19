@@ -56,3 +56,4 @@ x_test_scaled_deep = x_test_scaled[:,2:]
 history = model.fit([x_train_scaled_wide, x_train_scaled_deep],[y_train, y_train], validation_data=([x_valid_scaled_wide, x_valid_scaled_deep],[y_valid, y_valid]), epochs=30)
 
 print(model.evaluate([x_test_scaled_wide, x_test_scaled_deep],[y_test, y_test]))
+
