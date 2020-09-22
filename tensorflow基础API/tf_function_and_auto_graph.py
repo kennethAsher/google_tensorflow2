@@ -10,7 +10,7 @@
 
 import matplotlib as mpl
 import matplotlib.pyplot as plt
-%matplotlib inline
+# %matplotlib inline
 import numpy as np
 import sklearn
 import pandas as pd
